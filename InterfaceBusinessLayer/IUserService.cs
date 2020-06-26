@@ -2,7 +2,7 @@
 
 namespace InterfaceBusinessLayer
 {
-    public class Class1
+    public class IUserService
     {
     }
 }

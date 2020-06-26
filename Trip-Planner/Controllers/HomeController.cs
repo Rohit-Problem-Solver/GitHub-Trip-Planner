@@ -19,7 +19,7 @@ namespace Trip_Planner.Controllers
 
         public IActionResult Index()
         {
-            // We need to later pass the name of the person to the view
+  
             return View();
         }
 
