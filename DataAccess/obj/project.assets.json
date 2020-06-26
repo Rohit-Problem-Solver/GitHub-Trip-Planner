@@ -1253,24 +1253,11 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "BusinessLayer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "ModelClasses": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/BusinessLayer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BusinessLayer.dll": {}
-        }
-      },
       "InterfaceDataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "BusinessLayer": "1.0.0"
+          "ModelClasses": "1.0.0"
         },
         "compile": {
           "bin/placeholder/InterfaceDataAccess.dll": {}
@@ -4963,11 +4950,6 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
-    },
-    "BusinessLayer/1.0.0": {
-      "type": "project",
-      "path": "../BusinessLayer/BusinessLayer.csproj",
-      "msbuildProject": "../BusinessLayer/BusinessLayer.csproj"
     },
     "InterfaceDataAccess/1.0.0": {
       "type": "project",

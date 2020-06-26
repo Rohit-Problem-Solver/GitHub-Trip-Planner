@@ -27,6 +27,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\InterfaceBusinessLayer\\InterfaceBusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\InterfaceBusinessLayer\\InterfaceBusinessLayer.csproj"
+              },
               "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\Model Classes\\ModelClasses.csproj": {
                 "projectPath": "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\Model Classes\\ModelClasses.csproj"
               }
@@ -195,8 +198,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\Model Classes\\ModelClasses.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\Model Classes\\ModelClasses.csproj"
               }
             }
           }
@@ -354,6 +357,10 @@
               "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.5, )"
             },
