@@ -29,6 +29,9 @@
             "projectReferences": {
               "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\InterfaceDataAccess\\InterfaceDataAccess.csproj": {
                 "projectPath": "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\InterfaceDataAccess\\InterfaceDataAccess.csproj"
+              },
+              "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\Model Classes\\ModelClasses.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\Model Classes\\ModelClasses.csproj"
               }
             }
           }

@@ -8,7 +8,7 @@ namespace DataAccess
 {
     public class Trip : ITrip
     {
-        public TripDetails GetData()
+        public void GetData()
         {
 
         }

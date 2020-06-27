@@ -7,6 +7,6 @@ namespace InterfaceDataAccess
 {
     public interface ITrip
     {
-        TripDetails GetData();
+        void GetData();
     }
 }

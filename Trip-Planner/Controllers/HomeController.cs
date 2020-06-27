@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -20,6 +21,13 @@ namespace Trip_Planner.Controllers
         public IActionResult Index()
         {
   
+            return View();
+        }
+
+        [AllowAnonymous]
+        public IActionResult HTTPError()
+        {
+            ViewBag.Msg = "Not Found";
             return View();
         }
 
