@@ -1266,6 +1266,19 @@
           "bin/placeholder/InterfaceBusinessLayer.dll": {}
         }
       },
+      "InterfaceDataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ModelClasses": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InterfaceDataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InterfaceDataAccess.dll": {}
+        }
+      },
       "ModelClasses/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -4956,6 +4969,11 @@
       "path": "../InterfaceBusinessLayer/InterfaceBusinessLayer.csproj",
       "msbuildProject": "../InterfaceBusinessLayer/InterfaceBusinessLayer.csproj"
     },
+    "InterfaceDataAccess/1.0.0": {
+      "type": "project",
+      "path": "../InterfaceDataAccess/InterfaceDataAccess.csproj",
+      "msbuildProject": "../InterfaceDataAccess/InterfaceDataAccess.csproj"
+    },
     "ModelClasses/1.0.0": {
       "type": "project",
       "path": "../Model Classes/ModelClasses.csproj",
@@ -4965,6 +4983,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "InterfaceBusinessLayer >= 1.0.0",
+      "InterfaceDataAccess >= 1.0.0",
       "ModelClasses >= 1.0.0"
     ]
   },
@@ -4996,6 +5015,9 @@
           "projectReferences": {
             "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\InterfaceBusinessLayer\\InterfaceBusinessLayer.csproj": {
               "projectPath": "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\InterfaceBusinessLayer\\InterfaceBusinessLayer.csproj"
+            },
+            "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\InterfaceDataAccess\\InterfaceDataAccess.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\InterfaceDataAccess\\InterfaceDataAccess.csproj"
             },
             "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\Model Classes\\ModelClasses.csproj": {
               "projectPath": "C:\\Users\\hp\\Desktop\\GitHub-Trip Planner\\Model Classes\\ModelClasses.csproj"

@@ -2684,6 +2684,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "InterfaceBusinessLayer": "1.0.0",
+          "InterfaceDataAccess": "1.0.0",
           "ModelClasses": "1.0.0"
         },
         "compile": {

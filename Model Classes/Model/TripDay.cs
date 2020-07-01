@@ -4,12 +4,11 @@ using System.Text;
 
 namespace Model_Classes.Model
 {
-    public class TripDetails
+    class TripDay
     {
+        public int DayId { get; set; }
+        public int DayNumber { get; set; }
         public int TripId { get; set; }
-        public int NoOfDays { get; set; }
-        public int NoOfPeople { get; set; }
-        public int Budget { get; set; }
-
+        public string Place { get; set; }
     }
 }

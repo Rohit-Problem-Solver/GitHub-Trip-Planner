@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BusinessLayer;
 using DataAccess;
+using InterfaceBusinessLayer;
 using InterfaceDataAccess;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,7 +34,10 @@ namespace Trip_Planner
             services.AddControllersWithViews();
 
             // Add Interface services
-            //services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ITripRepository, TripRepository>();
+            services.AddScoped<ITripService, TripService>();
+            //services.AddScoped<ITripRepository, TripRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

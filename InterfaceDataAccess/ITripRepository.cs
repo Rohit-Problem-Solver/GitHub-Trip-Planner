@@ -5,8 +5,10 @@ using Model_Classes.Model;
 
 namespace InterfaceDataAccess
 {
-    public interface ITrip
+    public interface ITripRepository
     {
-        void GetData();
+        IEnumerable<TripDetail> GetTripDetails();
+        bool AddOrEditTrip(TripDetail tripDetail);
+
     }
 }
