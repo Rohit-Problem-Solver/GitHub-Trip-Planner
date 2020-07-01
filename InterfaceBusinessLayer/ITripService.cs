@@ -8,6 +8,7 @@ namespace InterfaceBusinessLayer
     public interface ITripService
     {
         IEnumerable<TripDetail> GetTripDetails();
-        bool AddOrEditTrip(TripDetail tripDetail);
+        int AddOrEditTrip(TripDetail tripDetail);
+        TripDetail GetTrip(int Id);
     }
 }

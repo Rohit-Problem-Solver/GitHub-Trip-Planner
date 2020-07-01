@@ -21,11 +21,17 @@ namespace BusinessLayer
             IEnumerable<TripDetail> tripDetail = _ITripRepository.GetTripDetails();
             return tripDetail;
         }
-        public bool AddOrEditTrip(TripDetail tripDetail)
+        public int AddOrEditTrip(TripDetail tripDetail)
         {
-            _ITripRepository.AddOrEditTrip(tripDetail);
-            return true;
+            int TripId = _ITripRepository.AddOrEditTrip(tripDetail);
+            return TripId;
         }
-       
+
+        public TripDetail GetTrip(int Id)
+        {
+            TripDetail tripDetail = _ITripRepository.GetTrip(Id);
+            return tripDetail;
+        }
+
     }
 }

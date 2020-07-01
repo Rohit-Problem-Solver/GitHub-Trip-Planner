@@ -26,18 +26,19 @@ namespace Trip_Planner.Controllers
             return View(model);
         }
         [HttpGet]
-        public IActionResult AddTrip()
+        public IActionResult AddEditTrip(int Id = 0)
         {
-            TripDetail model = new TripDetail();
+            TripDetail model = _TripService.GetTrip(Id);
+            //TripDetail model = new TripDetail();
 
             return View(model);
         }
         [HttpPost]
-        public IActionResult AddTrip(TripDetail tripDetail)
+        public IActionResult AddEditTrip(TripDetail tripDetail)
         {
             if(ModelState.IsValid)
             {
-                _TripService.AddTrip(tripDetail);
+                int TripId = _TripService.AddOrEditTrip(tripDetail);
             }
             TempData["Message"] = "Successfully Created";
             return RedirectToAction("Index");

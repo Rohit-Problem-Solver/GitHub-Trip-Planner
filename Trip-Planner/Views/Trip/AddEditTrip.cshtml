@@ -11,9 +11,11 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="AddTrip">
+        <form asp-action="AddEditTrip">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-             
+             <div>
+                 @Html.HiddenFor(m => m.TripId)
+             </div>
             <div class="form-group">
                 <label asp-for="NoOfDays" class="control-label"></label>
                 <input asp-for="NoOfDays" value="null" class="form-control" />
